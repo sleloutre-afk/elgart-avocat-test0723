@@ -25,7 +25,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
   return (
     <>
       <Navbar />
-      <main style={{ background: '#f3f0e8', minHeight: '100vh', paddingTop: '8rem', paddingBottom: '7rem' }}>
+      <main style={{ background: '#e9ebec', minHeight: '100vh', paddingTop: '8rem', paddingBottom: '7rem' }}>
         <div className="max-w-3xl mx-auto px-6">
 
           <div style={{ marginBottom: '3.5rem' }}>
@@ -50,7 +50,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
             <div style={{ height: '1px', background: 'rgba(30,56,41,0.10)' }} />
           </div>
 
-          <div style={{ fontSize: '0.88rem', color: '#3a3530', lineHeight: 1.85 }}>
+          <div style={{ fontSize: '0.88rem', color: '#2a3d30', lineHeight: 1.85 }}>
             {paragraphs.map((block, i) => {
               if (block.startsWith('## ')) {
                 return (
