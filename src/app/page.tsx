@@ -4,6 +4,7 @@ import StatsBar from '@/components/StatsBar'
 import Cabinet from '@/components/Cabinet'
 import Domaines from '@/components/Domaines'
 import Citation from '@/components/Citation'
+import Avis from '@/components/Avis'
 import Honoraires from '@/components/Honoraires'
 import Ressources from '@/components/Ressources'
 import Contact from '@/components/Contact'
@@ -18,6 +19,7 @@ export default function Home() {
       <Cabinet />
       <Domaines />
       <Citation />
+      <Avis />
       <Honoraires />
       <Ressources />
       <Contact />
