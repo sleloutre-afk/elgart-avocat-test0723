@@ -3,7 +3,7 @@ import { articles } from '@/lib/articles'
 
 export default function Ressources() {
   return (
-    <section id="ressources" style={{ background: '#f3f0e8', padding: '7rem 0' }}>
+    <section id="ressources" style={{ background: '#e9ebec', padding: '7rem 0' }}>
       <div className="max-w-6xl mx-auto px-6">
 
         <div style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', marginBottom: '4rem', flexWrap: 'wrap', gap: '1.5rem' }}>
@@ -18,7 +18,7 @@ export default function Ressources() {
           </div>
           <Link href="/ressources" style={{
             fontSize: '0.65rem', letterSpacing: '0.14em', textTransform: 'uppercase',
-            color: '#2e5a3e', textDecoration: 'none', borderBottom: '1px solid rgba(46,90,62,0.30)',
+            color: '#2e5a3e', textDecoration: 'none', borderBottom: '1px solid rgba(46,90,62,0.35)',
             paddingBottom: '2px',
           }}>
             Toutes les notes
@@ -29,9 +29,9 @@ export default function Ressources() {
           {articles.map((a) => (
             <Link key={a.slug} href={`/ressources/${a.slug}`} style={{ textDecoration: 'none' }}>
               <article style={{
-                background: '#fff',
+                background: '#ffffff',
                 padding: '2.5rem',
-                border: '1px solid rgba(30,56,41,0.07)',
+                border: '1px solid #cdd1d4',
                 height: '100%',
                 display: 'flex', flexDirection: 'column',
                 transition: 'border-color 0.2s',
@@ -42,11 +42,11 @@ export default function Ressources() {
                 <h3 style={{ fontFamily: 'var(--font-playfair)', fontSize: '1rem', fontWeight: 400, color: '#1e3829', margin: '0 0 1rem', lineHeight: 1.40, flex: 1 }}>
                   {a.titre}
                 </h3>
-                <p style={{ fontSize: '0.76rem', color: '#5a5040', lineHeight: 1.72, marginBottom: '1.6rem' }}>
+                <p style={{ fontSize: '0.76rem', color: '#445a4e', lineHeight: 1.72, marginBottom: '1.6rem' }}>
                   {a.description}
                 </p>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                  <span style={{ fontSize: '0.60rem', letterSpacing: '0.10em', color: 'rgba(46,90,62,0.55)' }}>
+                  <span style={{ fontSize: '0.60rem', letterSpacing: '0.10em', color: 'rgba(46,90,62,0.50)' }}>
                     {new Date(a.date).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' })}
                   </span>
                 </div>
