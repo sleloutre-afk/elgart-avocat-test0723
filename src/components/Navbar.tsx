@@ -23,7 +23,7 @@ export default function Navbar() {
     <nav style={{
       position: 'fixed', top: 0, left: 0, right: 0, zIndex: 50,
       transition: 'background 0.3s, box-shadow 0.3s, backdrop-filter 0.3s',
-      background: scrolled ? 'rgba(243,240,232,0.96)' : 'transparent',
+      background: scrolled ? 'rgba(233,235,236,0.97)' : 'transparent',
       backdropFilter: scrolled ? 'blur(12px)' : 'none',
       boxShadow: scrolled ? '0 1px 24px rgba(30,56,41,0.08)' : 'none',
     }}>
