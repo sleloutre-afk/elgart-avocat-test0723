@@ -21,7 +21,7 @@ const MODES = [
 
 export default function Honoraires() {
   return (
-    <section id="honoraires" style={{ background: '#fff', padding: '7rem 0' }}>
+    <section id="honoraires" style={{ background: '#ffffff', padding: '7rem 0' }}>
       <div className="max-w-6xl mx-auto px-6">
 
         <div style={{ textAlign: 'center', marginBottom: '4.5rem' }}>
@@ -33,39 +33,39 @@ export default function Honoraires() {
           <h2 style={{ fontFamily: 'var(--font-playfair)', fontSize: 'clamp(1.7rem, 3vw, 2.4rem)', fontWeight: 400, color: '#1e3829', margin: '0 0 1.2rem', lineHeight: 1.20 }}>
             Des honoraires lisibles et adaptés
           </h2>
-          <p style={{ fontSize: '0.85rem', color: '#5a5040', lineHeight: 1.75, maxWidth: '540px', margin: '0 auto' }}>
+          <p style={{ fontSize: '0.85rem', color: '#445a4e', lineHeight: 1.75, maxWidth: '540px', margin: '0 auto' }}>
             Chaque intervention fait l&apos;objet d&apos;une convention d&apos;honoraires signée en amont. Le mode de facturation est choisi ensemble selon la nature et la durée de la mission.
           </p>
         </div>
 
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1.5rem', marginBottom: '3rem' }}>
           {MODES.map((m) => (
-            <div key={m.num} style={{ border: '1px solid rgba(30,56,41,0.09)', padding: '2.4rem 2rem', background: '#f3f0e8' }}>
-              <div style={{ fontSize: '0.58rem', letterSpacing: '0.20em', color: 'rgba(46,90,62,0.50)', textTransform: 'uppercase', marginBottom: '1rem' }}>
+            <div key={m.num} style={{ border: '1px solid #cdd1d4', padding: '2.4rem 2rem', background: '#e9ebec' }}>
+              <div style={{ fontSize: '0.58rem', letterSpacing: '0.20em', color: 'rgba(46,90,62,0.40)', textTransform: 'uppercase', marginBottom: '1rem' }}>
                 {m.num}
               </div>
               <h3 style={{ fontFamily: 'var(--font-playfair)', fontSize: '1.05rem', fontWeight: 400, color: '#1e3829', margin: '0 0 1rem', lineHeight: 1.30 }}>
                 {m.titre}
               </h3>
-              <p style={{ fontSize: '0.80rem', color: '#5a5040', lineHeight: 1.78, margin: '0 0 1.2rem' }}>{m.desc}</p>
-              <p style={{ fontSize: '0.68rem', color: 'rgba(46,90,62,0.65)', letterSpacing: '0.04em' }}>{m.usage}</p>
+              <p style={{ fontSize: '0.80rem', color: '#445a4e', lineHeight: 1.78, margin: '0 0 1.2rem' }}>{m.desc}</p>
+              <p style={{ fontSize: '0.68rem', color: 'rgba(46,90,62,0.55)', letterSpacing: '0.04em' }}>{m.usage}</p>
             </div>
           ))}
         </div>
 
         <div style={{ background: '#1e3829', padding: '2.5rem 3rem', display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: '2rem', flexWrap: 'wrap' }}>
           <div>
-            <p style={{ fontFamily: 'var(--font-playfair)', fontSize: '1rem', color: '#f3f0e8', margin: '0 0 0.4rem', fontWeight: 400 }}>
+            <p style={{ fontFamily: 'var(--font-playfair)', fontSize: '1rem', color: '#e9ebec', margin: '0 0 0.4rem', fontWeight: 400 }}>
               Discuter de votre dossier
             </p>
-            <p style={{ fontSize: '0.78rem', color: 'rgba(243,240,232,0.40)', margin: 0 }}>
+            <p style={{ fontSize: '0.78rem', color: 'rgba(233,235,236,0.40)', margin: 0 }}>
               Premier entretien · Devis gratuit sur demande
             </p>
           </div>
           <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
             <a href="tel:+33630267143" style={{
               display: 'inline-flex', alignItems: 'center',
-              background: '#2e5a3e', color: '#f3f0e8',
+              background: '#2e5a3e', color: '#ffffff',
               padding: '1rem 2rem', textDecoration: 'none',
               fontSize: '0.65rem', letterSpacing: '0.14em', textTransform: 'uppercase',
               whiteSpace: 'nowrap',
@@ -74,7 +74,7 @@ export default function Honoraires() {
             </a>
             <a href="https://calendly.com/elgart-avocate/30min" target="_blank" rel="noopener noreferrer" style={{
               display: 'inline-flex', alignItems: 'center',
-              border: '1px solid rgba(243,240,232,0.25)', color: 'rgba(243,240,232,0.75)',
+              border: '1px solid rgba(233,235,236,0.25)', color: 'rgba(233,235,236,0.75)',
               padding: '1rem 2rem', textDecoration: 'none',
               fontSize: '0.65rem', letterSpacing: '0.14em', textTransform: 'uppercase',
               whiteSpace: 'nowrap',
