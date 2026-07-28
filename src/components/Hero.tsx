@@ -32,7 +32,7 @@ export default function Hero() {
               src="/logo-elgart.svg"
               alt=""
               aria-hidden
-              style={{ height: '72px', width: 'auto', filter: 'brightness(0) invert(1)', opacity: 0.90 }}
+              style={{ height: '108px', width: 'auto', filter: 'brightness(0) invert(1)', opacity: 0.90 }}
             />
             <h1 style={{
               fontFamily: 'var(--font-playfair)',
