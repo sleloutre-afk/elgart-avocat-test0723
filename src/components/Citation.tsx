@@ -18,11 +18,11 @@ export default function Citation() {
         </blockquote>
 
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1rem' }}>
-          <div style={{ width: '32px', height: '1px', background: '#2e5a3e' }} />
-          <span style={{ fontSize: '0.60rem', letterSpacing: '0.20em', color: 'rgba(46,90,62,0.80)', textTransform: 'uppercase' }}>
+          <div style={{ width: '32px', height: '1px', background: 'rgba(233,235,236,0.25)' }} />
+          <span style={{ fontSize: '0.60rem', letterSpacing: '0.20em', color: 'rgba(233,235,236,0.50)', textTransform: 'uppercase' }}>
             Maître Marie Elgart
           </span>
-          <div style={{ width: '32px', height: '1px', background: '#2e5a3e' }} />
+          <div style={{ width: '32px', height: '1px', background: 'rgba(233,235,236,0.25)' }} />
         </div>
 
       </div>
