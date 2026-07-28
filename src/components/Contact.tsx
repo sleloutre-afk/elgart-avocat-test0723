@@ -15,6 +15,18 @@ export default function Contact() {
           position: 'absolute', inset: 0,
           background: 'linear-gradient(to right, #1e3829 0%, rgba(22,42,30,0.50) 60%, rgba(22,42,30,0.25) 100%)',
         }} />
+        {/* Logo overlay */}
+        <div style={{
+          position: 'absolute', inset: 0,
+          display: 'flex', alignItems: 'center', justifyContent: 'center',
+        }}>
+          <img
+            src="/logo-elgart.svg"
+            alt=""
+            aria-hidden
+            style={{ width: '120px', height: 'auto', filter: 'brightness(0) invert(1)', opacity: 0.18 }}
+          />
+        </div>
       </div>
 
       <div className="max-w-6xl mx-auto px-6" style={{ position: 'relative' }}>
