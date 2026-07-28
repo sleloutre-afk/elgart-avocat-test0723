@@ -9,7 +9,7 @@ const FORMATION = [
 
 export default function Cabinet() {
   return (
-    <section id="cabinet" style={{ background: '#f3f0e8', padding: '7rem 0' }}>
+    <section id="cabinet" style={{ background: '#ffffff', padding: '7rem 0' }}>
       <div className="max-w-6xl mx-auto px-6">
         <div style={{ display: 'grid', gridTemplateColumns: '2fr 3fr', gap: '5rem', alignItems: 'start' }}>
 
@@ -24,15 +24,15 @@ export default function Cabinet() {
               />
               <div style={{
                 position: 'absolute', bottom: 0, left: 0, right: 0,
-                height: '40%',
-                background: 'linear-gradient(to top, rgba(22,42,30,0.55) 0%, transparent 100%)',
+                height: '35%',
+                background: 'linear-gradient(to top, rgba(30,56,41,0.45) 0%, transparent 100%)',
               }} />
               <div style={{
                 position: 'absolute', bottom: '1.5rem', left: '1.5rem',
                 display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
                 background: '#2e5a3e', padding: '0.4rem 0.9rem',
               }}>
-                <span style={{ fontSize: '0.58rem', letterSpacing: '0.18em', color: '#f3f0e8', textTransform: 'uppercase' }}>
+                <span style={{ fontSize: '0.58rem', letterSpacing: '0.18em', color: '#ffffff', textTransform: 'uppercase' }}>
                   Serment 2022
                 </span>
               </div>
@@ -49,19 +49,19 @@ export default function Cabinet() {
               Maître Marie Elgart
             </h2>
 
-            <p style={{ fontSize: '0.87rem', color: '#5a5040', lineHeight: 1.85, marginBottom: '1.4rem' }}>
+            <p style={{ fontSize: '0.87rem', color: '#445a4e', lineHeight: 1.85, marginBottom: '1.4rem' }}>
               Maître Marie Elgart est avocate au Barreau de Bordeaux depuis 2022. Titulaire d&apos;un Master 2 en droit international (Université de Strasbourg) et d&apos;un CAPA mention Droit des affaires obtenu à Versailles, elle a construit une pratique résolument tournée vers les entreprises et les opérateurs économiques.
             </p>
-            <p style={{ fontSize: '0.87rem', color: '#5a5040', lineHeight: 1.85, marginBottom: '1.4rem' }}>
+            <p style={{ fontSize: '0.87rem', color: '#445a4e', lineHeight: 1.85, marginBottom: '1.4rem' }}>
               Après une expérience dans plusieurs cabinets parisiens spécialisés en M&amp;A et droit des sociétés, elle exerce à Bordeaux une pratique pluridisciplinaire centrée sur l&apos;immobilier d&apos;entreprise — baux commerciaux, professionnels et dérogatoires — et sur l&apos;accompagnement juridique des sociétés dans leur développement et leurs opérations de croissance.
             </p>
-            <p style={{ fontSize: '0.87rem', color: '#5a5040', lineHeight: 1.85, marginBottom: '2.5rem' }}>
+            <p style={{ fontSize: '0.87rem', color: '#445a4e', lineHeight: 1.85, marginBottom: '2.5rem' }}>
               Membre de l&apos;Institut du droit des affaires du Barreau de Bordeaux, elle intervient en français et en anglais, aussi bien en conseil qu&apos;en contentieux.
             </p>
 
             {/* Formation */}
-            <div style={{ borderTop: '1px solid rgba(30,56,41,0.10)', paddingTop: '2rem' }}>
-              <p style={{ fontSize: '0.58rem', letterSpacing: '0.22em', color: 'rgba(46,90,62,0.75)', textTransform: 'uppercase', marginBottom: '1.4rem' }}>
+            <div style={{ borderTop: '1px solid #cdd1d4', paddingTop: '2rem' }}>
+              <p style={{ fontSize: '0.58rem', letterSpacing: '0.22em', color: 'rgba(46,90,62,0.65)', textTransform: 'uppercase', marginBottom: '1.4rem' }}>
                 Formation
               </p>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
@@ -70,8 +70,8 @@ export default function Cabinet() {
                     <div style={{ width: '5px', height: '5px', borderRadius: '50%', background: '#2e5a3e', flexShrink: 0, marginTop: '6px' }} />
                     <div>
                       <span style={{ fontSize: '0.80rem', color: '#1e3829', fontWeight: 500 }}>{f.diplome}</span>
-                      <span style={{ fontSize: '0.80rem', color: '#5a5040' }}> · {f.mention}</span>
-                      <p style={{ fontSize: '0.68rem', color: 'rgba(30,56,41,0.42)', marginTop: '0.1rem' }}>{f.ecole}</p>
+                      <span style={{ fontSize: '0.80rem', color: '#445a4e' }}> · {f.mention}</span>
+                      <p style={{ fontSize: '0.68rem', color: 'rgba(46,90,62,0.45)', marginTop: '0.1rem' }}>{f.ecole}</p>
                     </div>
                   </div>
                 ))}
