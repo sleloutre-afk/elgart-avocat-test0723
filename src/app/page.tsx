@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import StatsBar from '@/components/StatsBar'
 import Cabinet from '@/components/Cabinet'
@@ -10,7 +11,8 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main>
+    <>
+      <Navbar />
       <Hero />
       <StatsBar />
       <Cabinet />
@@ -20,6 +22,6 @@ export default function Home() {
       <Ressources />
       <Contact />
       <Footer />
-    </main>
+    </>
   )
 }
