@@ -48,3 +48,11 @@ body {
 .gap-6     { gap: 1.5rem; }
 .block     { display: block; }
 .md\:grid-cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+
+/* Navbar responsive */
+.nav-desktop { display: none; align-items: center; }
+.nav-burger  { display: flex; }
+@media (min-width: 768px) {
+  .nav-desktop { display: flex; }
+  .nav-burger  { display: none; }
+}
